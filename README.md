@@ -45,7 +45,7 @@ gcc -shared *.o -o _my_str_lib.so
 
 ```
 swig -python -c++ my_pair.i
-g++ -c -fpic my_pair_wrap.cxx -I/usr/include/python2.7
+g++ -c -fpic my_pair_wrap.cxx -I/usr/include/python3.8
 g++ -shared my_pair_wrap.o -o _my_pair.so
 ```
 
